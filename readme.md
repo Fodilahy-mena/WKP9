@@ -17,3 +17,19 @@ There is a lot of data in a film object, use whatever attribute you need.
 Feel free to add some beautiful styling to your website when you're done fetching and sorting the data.
 
 Good luck 💻
+
+### Report
+
+1. The structure of the project.
+
+    - To make the data from Studio Ghibli Movies url more accessible, I used fetch(). I used a catch method in case there is an error intead of fulfilling the promise.  
+    - I used async await function so that it is loading until the prossess of uploading the data from the url is done.
+    
+2. If you had more time, what area of your project would you improve?
+ 
+3. Did you learn anything new while working on this project?
+
+4. What was the most challenging part for you?
+
+
+5. Any other comments?

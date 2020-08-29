@@ -1,0 +1,102 @@
+
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding-block-start: 46px;
+    padding-block-end: 46px;
+    padding-inline-start: 86px;
+    padding-inline-end: 86px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    padding: 2rem;
+    padding-left: 0;
+    text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header span {
+    top: 4rem;
+    position: relative;
+    height: 0%;
+}
+
+h2 {
+    padding-block-start: 19px;
+    font-style: normal;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 36px;
+    line-height: 44px;
+    text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgb(248, 121, 3);
+}
+
+.movies__card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding-inline-start: 35px;
+    padding-inline-end: 35px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding-block-end: 19px;
+}
+
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.loading {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .loading div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    margin: 8px;
+    border: 5px solid;
+    border-radius: 50%;
+    animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: orange transparent transparent transparent;
+  }
+  .loading div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .loading div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .loading div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
